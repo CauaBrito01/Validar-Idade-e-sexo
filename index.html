@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section class="main">
+        <div class="dados">
+            <p>Ano de Nascimento: <input name="ano_nascimento" id="ano_nascimento" type="number"></p>
+            <p>Sexo 
+            <input id="masculino" type="radio" name="radsex" checked>
+            <label for="masculino">Masculino</label> 
+            <input id="feminino" type="radio" name="radsex" > 
+            <label for="feminino">feminino</label>
+            </p>
+            <input type="button" value="verificar" onclick= 'detectar_dados()'>
+        </div>
+        
+        <div id="avaliador">
+            Preencha os dados para ver o resultado
+        </div>
+    </section>
+    <footer>
+        @Cauã Brito
+    </footer>
+</body>
+</html>
